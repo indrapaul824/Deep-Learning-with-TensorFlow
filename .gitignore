@@ -6,5 +6,4 @@
 .env
 .venv
 
-.DS_Store
-*/.DS_Stroe
+/DeepLearning.AI TensorFlow Developer/C4_Using Real World Images/horse-or-human
