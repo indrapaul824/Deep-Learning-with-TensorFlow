@@ -10,12 +10,18 @@ h1 {
   text-align: center;
 }
 #paint {
-  border: 3px solid red;
   margin: auto;
   flex: 50%;
 }
+#myCanvas {
+  border: 3px solid red;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #predicted {
-  font-size: 60px;
+  font-size: 40px;
   margin-top: 60px;
   text-align: center;
   flex: 50%;
@@ -54,4 +60,13 @@ h1 {
 }
 .row {
   display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  #paint {
+    width: 100%;
+  }
+  #predicted {
+    width: 100%;
+  }
 }
