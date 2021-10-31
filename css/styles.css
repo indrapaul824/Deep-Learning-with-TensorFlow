@@ -1,0 +1,57 @@
+body {
+  touch-action: none; /*https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action*/
+  font-family: "Roboto";
+  background-color: rgba(0, 0, 0, 0.877);
+  color: aliceblue;
+}
+h1 {
+  margin: 50px;
+  font-size: 70px;
+  text-align: center;
+}
+#paint {
+  border: 3px solid red;
+  margin: auto;
+  flex: 50%;
+}
+#predicted {
+  font-size: 60px;
+  margin-top: 60px;
+  text-align: center;
+  flex: 50%;
+}
+#number {
+  border: 3px solid green;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  vertical-align: middle;
+  transition-duration: 0.4s;
+}
+#clear {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  padding: 20px 25px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.877);
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border: 2px solid rgb(55, 59, 62);
+  border-radius: 10%;
+  box-shadow: 0 4px #999;
+}
+#clear:hover {
+  background: #313030;
+  color: white;
+}
+#clear:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+.row {
+  display: flex;
+}
