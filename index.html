@@ -127,7 +127,9 @@
       canvas.addEventListener(
         "mouseup",
         function () {
-          $("#number").html('<img id="spinner" src="spinner.gif"/>');
+          $("#number").html(
+            '<img id="spinner" src="https://raw.githubusercontent.com/carlos-aguayo/carlos-aguayo.github.io/master/spinner.gif"/>'
+          );
           canvas.removeEventListener("mousemove", onPaint, false);
           var img = new Image();
           img.onload = function () {
@@ -150,7 +152,7 @@
       };
 
       tf.loadLayersModel(
-        "./DeepLearning.AI TensorFlow Developer/C1_Introduction to TensorFlow/W2_Introduction to CV/artifactsmodel/model.json"
+        "./DeepLearning.AI TensorFlow Developer/C1_Introduction to TensorFlow/W2_Introduction to CV/artifacts/model/model.json"
       ).then(function (model) {
         window.model = model;
       });
@@ -194,7 +196,7 @@
       var predict = function (input) {
         if (window.model) {
           window.model
-            .predict([tf.tensor(input).reshape([1, 28, 28, 1])])
+            .predict([tf.tensor(input).reshape([1, 28, 28])])
             .array()
             .then(function (scores) {
               scores = scores[0];
