@@ -10,8 +10,10 @@ h1 {
   text-align: center;
 }
 #paint {
-  margin: auto;
-  flex: 50%;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 5% 0% 5% 5%;
+  flex: 30%;
 }
 #myCanvas {
   border: 3px solid red;
@@ -59,6 +61,7 @@ h1 {
 }
 .row {
   display: flex;
+  margin-bottom: 0%;
 }
 
 @media screen and (max-width: 600px) {
