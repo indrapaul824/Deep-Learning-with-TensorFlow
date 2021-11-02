@@ -12,7 +12,7 @@
         $("#clear").css({ "font-size": "35px" });
       }
 
-      var cw = $("#paint").width();
+      var cw = $("#paint").width() - 60;
       $("#paint").css({ height: cw + "px" });
 
       cw = $("#number").width();
