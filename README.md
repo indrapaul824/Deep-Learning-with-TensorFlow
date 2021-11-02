@@ -11,7 +11,7 @@ This repo contains all the notebooks I made and used while studying Deep Learnin
 
 I have also built a webpage in an attempt to deploy all the ready-to-serve models to it for Users to try them out using the data of their choice.
 
-Visit: [Deployed Web App](https://indrap24.github.io/TensorFlow-Tutorial/)
+Visit: [Deployed Web App](https://indrap24.github.io/Deep-Learning-with-TensorFlow/)
 
 ## Requirement
 
