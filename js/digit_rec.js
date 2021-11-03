@@ -124,7 +124,7 @@
       var predict = function (input) {
         if (window.model) {
           window.model
-            .predict([tf.tensor(input).reshape([1, 28, 28])])
+            .predict([tf.tensor(input).reshape([1, 28, 28, 1])])
             .array()
             .then(function (scores) {
               scores = scores[0];
