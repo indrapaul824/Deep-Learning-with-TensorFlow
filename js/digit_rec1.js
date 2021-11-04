@@ -1,6 +1,6 @@
 let model;
-var canvasWidth             = 200;
-var canvasHeight            = 200;
+var canvasWidth             = 300;
+var canvasHeight            = 300;
 var canvasStrokeStyle       = "white";
 var canvasLineJoin          = "round";
 var canvasLineWidth         = 10;
@@ -13,7 +13,7 @@ var drawing;
 
 
 var canvasBox = document.getElementById('canvas-box');
-var canvas = document.createElement("canvas");
+var canvas = document.getElementById("canvasc");
 
 canvas.setAttribute("width", canvasWidth);
 canvas.setAttribute("height", canvasHeight);
