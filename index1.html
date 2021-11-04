@@ -20,10 +20,17 @@
       <div class="conatiner mt-1">
         <div class="digit-demo-container">
           <h1>Handwritten Digit Recognition</h1>
+          <h3>
+            Draw on the black canvas below with your mouse on desktop or your
+            finger on your mobile, click “Predict” to get result of the hand
+            written digit prediction, click “Clean” to start drawing again
+          </h3>
 
           <div class="flex-two">
             <div id="canvas" class="canvas-box-wrapper">
               <div id="canvas-box" class="canvas-box">
+                <h2>Paint Here</h2>
+                <br />
                 <canvas id="canvasc" width="300" height="300"></canvas>
               </div>
               <div class="col-12">
@@ -35,12 +42,20 @@
                 <button id="clear-btn" class="btn btn-dark">Clear</button>
               </div>
             </div>
-            <div class="col-6">
-              <div id="result_box" class="col-12 col-md-7">
+            <div class="canvas-box">
+              <h2>Results</h2>
+              <br />
+              <div id="result_box" class="">
                 <canvas id="chart_box" width="100" height="100"></canvas>
               </div>
               <div
-                class="col-12 d-block mt-2 mt-md-0 text-md-left prediction-text"
+                class="
+                  col-12
+                  d-block
+                  mt-2 mt-md-0
+                  text-md-center
+                  prediction-text
+                "
               ></div>
             </div>
           </div>
