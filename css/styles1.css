@@ -33,13 +33,14 @@
 
 #canvasc {
   background-color: #2b3436;
-  height: auto;
 }
 
 #chart_box {
   background-color: #2b3436;
   padding: 20px;
   border-radius: 5px;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .btn {
