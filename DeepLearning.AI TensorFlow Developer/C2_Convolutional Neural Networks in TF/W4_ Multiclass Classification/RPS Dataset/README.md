@@ -5,6 +5,5 @@ Rock Paper Scissors contains images from various hands, from different races, ag
 Note that all of these pictures use a plain white background. Each image is **`300×300`** pixels in **`24-bit`** color. Examples Here are a few examples showing some of the poses and the diversity of hands used.
 
 <img src="./validation/paper-hires1.png" width="200"/>
-<img src="./validation/paper1.png" width="200"/>
-<img src="./validation/paper5.png" width="200"/>
-<img src="./validation/rock-hires1.png" width="200"/>
+<img src="./validation/rock2.png" width="200"/>
+<img src="./validation/scissors1.png" width="200"/>
