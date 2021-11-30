@@ -1,0 +1,24 @@
+age -,bp -,ch -,hr -,hd
+Old,Low,Low,Medium,No
+VeryOld,Low,Medium,Low,Yes
+Old,Medium,Medium,Medium,No
+Old,Low,Low,Low,Yes
+Mild,Low,Low,Medium,Yes
+VeryOld,High,Medium,Low,Yes
+Veryold,Medium,Medium,Low,Yes
+Mild,Medium,VeryHigh,Low,Yes
+Old,Low,Medium,Medium,No
+Veryold,Medium,VeryHigh,Medium,No
+VeryOld,Medium,Low,Medium,No
+Mild,Low,Medium,Medium,No
+Mild,Low,Medium,Medium,No
+Veryold,Medium,Low,Low,Yes
+VeryOld,Low,Low,Low,No
+VeryOld,VeryHigh,Medium,Medium,Yes
+VeryOld,Low,High,Low,Yes
+Old,Medium,Low,Medium,No
+Old,Low,High,Medium,Yes
+Mild,Low,Medium,Medium,No
+VeryOld,Medium,Medium,Medium,No
+Veryold,Medium,Medium,Medium,No
+Old,Medium,High,Low,Yes
