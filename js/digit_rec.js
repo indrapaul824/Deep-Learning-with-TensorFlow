@@ -153,7 +153,7 @@ $("#clear-btn").click(function () {
 async function loadModel() {
     model = undefined;
     model = await tf.loadLayersModel(
-        "./DeepLearning.AI TensorFlow Developer/C1_Introduction to TensorFlow/W2_Introduction to CV/artifacts/model/model.json"
+        "./DeepLearning.AI TensorFlow Developer/C1_Introduction to TensorFlow/W2_Introduction to CV/artifacts/cnn_model/model.json"
       );
 }
 
